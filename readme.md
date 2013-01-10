@@ -1,4 +1,4 @@
-# Heisenberg
+# Heisenberg.js
 
 ## A project base for building modern JavaScript applications
 
