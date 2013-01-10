@@ -174,4 +174,6 @@
     #header span {
         display: inline-block;
         float: right;
+        position: relative;
+        top: 7px;
     }
