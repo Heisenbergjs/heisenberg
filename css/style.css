@@ -10,6 +10,15 @@
         font: inherit;
         vertical-align: baseline;
     }
+
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
     
     article, hgroup, section, p {
         display: block;
@@ -17,6 +26,7 @@
     
     img { vertical-align: middle; }
     a   { cursor: pointer; }
+    em { font-style: italic; }
     
 /*  =====================================
     Default
@@ -40,6 +50,7 @@
         min-height: 530px;
         position: relative;
         z-index: 0;
+        padding-bottom: 80px;
     }
     
     .container {
@@ -56,11 +67,6 @@
         font-weight: 500;
     }
     
-    p.large {
-        font-size: 28px;
-        font-weight: 300;
-    }
-    
     h2 {
         font-size: 18px;
         color: #fff;
@@ -69,11 +75,33 @@
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 28px;
         color: #fff;
-        margin: 48px 0 24px 0;
+        float: left;
     }
     
+    h3 {
+        margin: 24px 0;
+        font-size: 22px;   
+    }
+
+    ul li {
+        margin: 12px 0 12px 40px;
+    }
+
+    .features {
+        text-align: left;
+        margin-bottom: 36px;
+    }
+
+    hr {
+        height: 1px;
+        background: rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid #30383c;
+        margin: 24px 0;
+        display: block;
+    }
+
     .avatar {
         width: 200px;
         height: 200px;
@@ -87,7 +115,7 @@
     
     .character {
         display: inline-block;
-        margin: 0 24px;
+        margin: 0 24px 12px 24px;
         background-color: #30383c;
         box-shadow: 0 1px 3px rgba(0,0,0,.15), inset 0 0 1px 1px rgba(255,255,255,.2), 0 0 0 1px rgba(0,0,0,.2);
         border-radius: .25em;
@@ -100,8 +128,9 @@
         font-weight: bold;
         font-size: 14px;
         padding: 8px 12px;
-        margin: 48px 0;
-        display: inline-block;
+        margin: 36px auto 18px auto;
+        display: block;
+        width: 80px;
         background: #258dc8; /* Old browsers */
         background: -moz-linear-gradient(top,  #258dc8 0%, #258dc8 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#258dc8), color-stop(100%,#258dc8)); /* Chrome,Safari4+ */
@@ -119,23 +148,26 @@
     }
 
     #large {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 300;
         margin-bottom: 24px;
     }
 
-    #medium {
+    .medium {
         font-size: 18px;
-        margin-top: 24px;
+        margin-top: 12px;
     }
 
-    #foot {
-        position: absolute;
-        bottom: 18px;
+    #header {
         text-align: center;
+        line-height: 80px;
         width: 100%;
+        background-color: #30383c;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 24px; 
     }
 
-    #foot span {
+    #header span {
         display: inline-block;
+        float: right;
     }

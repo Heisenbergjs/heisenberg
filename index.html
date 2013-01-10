@@ -1,14 +1,24 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Heisenberg</title>
+	<meta name="description" conent="A rich base project for modern JavaScript applications">
 </head>
 <body>
 
+	<div id="header">
+		<div class="container">
+			<h1>Heisenberg</h1>
+			<span>made by <a href="http://benhowdle.im">Ben Howdle</a></span>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
 	<div class="container">
 
-		<h1>Heisenberg.js</h1>
+		
 
-		<p id="large">A rich base for a modern JavaScript application</p>
+		<p id="large">A rich base project for modern JavaScript applications</p>
 
 		<div id="walter" class="character">
 
@@ -18,13 +28,28 @@
 
 		</div>
 
-		<p id="medium">Have a snoop around the source, yo!</p>
+		<div class="features">
+			<h3>Features</h3>
+			<ul>
+				<li><em>Not</em> a framework, but a base project to help you structure your JavaScript code and files.</li>
+				<li>Makes use of the Mediator Pattern (or more commonly know as Pub/Sub).</li>
+				<li>Templating built in - Handlebars is included but feel free to change engines.</li>
+				<li>Follows the Object Literal Pattern with one global namespace, usually 'myApp' or 'chatApp'. In this case, it's 'breakingBad'.</li>
+				<li><em>Included: </em>jQuery, Underscore.js and Handlebars.</li>
+				<li>A fully commented source to show you <em>why</em> it's doing what it's doing and how to build upon it's foundation.</li>
+			</ul>
+		</div>
 
-		<a id="readMore" href="http://benhowdle.im/heisenberg">Read more</a>
+		<hr />
+
+		<p class="medium">It's actually powering this page.</p>
+		<p class="medium">The above profiles are templates controlled and rendered by the included modules.<p>
+
+		<a id="readMore" href="https://github.com/benhowdle89/heisenberg">GitHub</a>
 
 	</div>
 
-	<div id="foot"><span>made by <a href="http://benhowdle.im">Ben Howdle</a></span></div>
+	
 
 	<script id="character-template" type="text/x-handlebars-template">
 	{{#this}}
@@ -48,6 +73,22 @@
 	<!-- modules -->
 	<script type="text/javascript" src="js/app/modules/jesse.js"></script>
 	<script type="text/javascript" src="js/app/modules/walter.js"></script>
+
+	<!-- analytics - REMOVE -->
+
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-37224725-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
 
 </body>
 </html>
