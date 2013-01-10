@@ -1,0 +1,141 @@
+/*  =====================================
+    CSS RESET
+    /*  ===================================== */
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    
+    article, hgroup, section, p {
+        display: block;
+    }
+    
+    img { vertical-align: middle; }
+    a   { cursor: pointer; }
+    
+/*  =====================================
+    Default
+    /*  ===================================== */
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    html, body {
+        width: 100%;
+        color: #e2e8eb;
+        font: normal 15px/1.5 Helvetica Neue, Helvetica, Arial;
+        background: #3c525f;
+    }
+    
+    body {
+        min-height: 530px;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .container {
+        width: 591px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+    
+    a, a:visited {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    p.large {
+        font-size: 28px;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-size: 18px;
+        color: #fff;
+        margin: 12px 0;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: #fff;
+        margin: 48px 0 24px 0;
+    }
+    
+    .avatar {
+        width: 200px;
+        height: 200px;
+        -webkit-border-top-left-radius: .25em;
+        -webkit-border-top-right-radius: .25em;
+        -moz-border-radius-topleft: .25em;
+        -moz-border-radius-topright: .25em;
+        border-top-left-radius: .25em;
+        border-top-right-radius: .25em;
+    }
+    
+    .character {
+        display: inline-block;
+        margin: 0 24px;
+        background-color: #30383c;
+        box-shadow: 0 1px 3px rgba(0,0,0,.15), inset 0 0 1px 1px rgba(255,255,255,.2), 0 0 0 1px rgba(0,0,0,.2);
+        border-radius: .25em;
+        width: 202px;
+        padding-top: 1px;
+    }
+    
+    #readMore {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 8px 12px;
+        margin: 48px 0;
+        display: inline-block;
+        background: #258dc8; /* Old browsers */
+        background: -moz-linear-gradient(top,  #258dc8 0%, #258dc8 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#258dc8), color-stop(100%,#258dc8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #258dc8 0%,#258dc8 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #258dc8 0%,#258dc8 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #258dc8 0%,#258dc8 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #258dc8 0%,#258dc8 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+        text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+        border: 1px solid rgba(0,0,0,0.5);
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.4), 
+        0 0 0 1px rgba(255,255,255,0.18) inset,
+        0 1px 0 0 rgba(255,255,255,0.3) inset;
+    }
+
+    #large {
+        font-size: 28px;
+        font-weight: 300;
+        margin-bottom: 24px;
+    }
+
+    #medium {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 18px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #foot span {
+        display: inline-block;
+    }

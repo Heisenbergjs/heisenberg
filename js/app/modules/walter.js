@@ -1,20 +1,33 @@
 breakingBad.Modules.walter = {
+
+	// see jesse.js for full comments on each function/section
+
+	el: '#walter',
+
+	name: 'Walter',
+
+	avatar: 'img/walter.png',
+
 	init: function(){
-		_.bindAll(this, 'reverseUsername');
+		_.bindAll(this, 'render');
+		this.cacheEls();
 		this.bindEvents();
-		this.addUser();
 	},
 
 	bindEvents: function(){
-		breakingBad.Events.on('user:reverseUsername', this.reverseUsername);
-		this.reverseUsername = $('#reverseUsername');
+		breakingBad.Events.on('render', this.render);
 	},
 
-	addUser: function(){
-		breakingBad.Events.trigger('user:added', {username: 'Walter White'});
+	cacheEls: function(){
+		this.template = Handlebars.compile( $('#character-template').html() );
 	},
 
-	reverseUsername: function(event, params){
-		this.reverseUsername.text(breakingBad.Utilities.Helpers.reverse(params.username));
+	render: function(event, params){
+		console.log(params);
+		var data = {
+			character: this.name,
+			avatar: this.avatar
+		};
+		$(this.el).html(this.template( data ) );
 	}
 };

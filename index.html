@@ -1,24 +1,53 @@
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 <body>
 
-<p>Welcome <span id="username"></span></p>
+	<div class="container">
 
-<p>Reversed by helper: <span id="reverseUsername"></span></p>
+		<h1>Heisenberg.js</h1>
 
-<!-- vendor libraries -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery.js"><\/script>')</script>
-<script type="text/javascript" src="js/vendors/underscore/underscore.js"></script>
+		<p id="large">A rich base for a modern JavaScript application</p>
 
-<!-- main file - sets up namespace and bootstraps app -->
-<script type="text/javascript" src="js/app/main.js"></script>
+		<div id="walter" class="character">
 
-<!-- utility scripts -->
-<script type="text/javascript" src="js/app/utilities/helpers.js"></script>
+		</div>
 
-<!-- modules -->
-<script type="text/javascript" src="js/app/modules/jesse.js"></script>
-<script type="text/javascript" src="js/app/modules/walter.js"></script>
+		<div id="jesse" class="character">
+
+		</div>
+
+		<p id="medium">Have a snoop around the source, yo!</p>
+
+		<a id="readMore" href="http://benhowdle.im/heisenberg">Read more</a>
+
+	</div>
+
+	<div id="foot"><span>made by <a href="http://benhowdle.im">Ben Howdle</a></span></div>
+
+	<script id="character-template" type="text/x-handlebars-template">
+	{{#this}}
+	<img class="avatar" src="{{avatar}}" />
+	<h2>{{character}}</h2>
+	{{/this}}
+	</script>
+
+	<!-- vendor libraries -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery.js"><\/script>')</script>
+	<script type="text/javascript" src="js/vendors/underscore/underscore.js"></script>
+	<script type="text/javascript" src="js/vendors/handlebars/handlebars.js"></script>
+
+	<!-- main file - sets up namespace and bootstraps app -->
+	<script type="text/javascript" src="js/app/main.js"></script>
+
+	<!-- utility scripts -->
+	<script type="text/javascript" src="js/app/utilities/helpers.js"></script>
+
+	<!-- modules -->
+	<script type="text/javascript" src="js/app/modules/jesse.js"></script>
+	<script type="text/javascript" src="js/app/modules/walter.js"></script>
 
 </body>
 </html>
