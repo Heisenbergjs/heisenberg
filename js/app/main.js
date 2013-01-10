@@ -1,4 +1,4 @@
-window.app = {
+window.breakingBad = {
 	Modules: {
 
 	},
@@ -6,14 +6,14 @@ window.app = {
 		
 	},
 	init: function(){
-		console.log('App ready!');
-		for(var x in app.Modules){
-			app.Modules[x].init();
+		console.log('Ready, yo!');
+		for(var x in breakingBad.Modules){
+			breakingBad.Modules[x].init();
 		}
 	},
 	Events: $({})
 };
 
 $(document).ready(function(){
-	app.init();
+	breakingBad.init();
 });

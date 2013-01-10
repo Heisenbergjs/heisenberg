@@ -1,4 +1,4 @@
-app.Utilities.Helpers = {
+breakingBad.Utilities.Helpers = {
 	reverse: function(str){
 		return str.split('').reverse().join('');
 	},
