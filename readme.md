@@ -5,7 +5,7 @@
 ### Features
 
 * Not a framework, but a base project to help you structure your JavaScript code and files.
-* Makes use of the Mediator Pattern (or more commonly know as Pub/Sub).
+* Makes use of the Mediator Pattern, so you can trigger events around your application.
 * Templating built in - Handlebars is included but feel free to change engines.
 * Follows the Object Literal Pattern with one global namespace, usually 'myApp' or 'chatApp'. In this case, it's 'breakingBad'.
 * Included: jQuery, Underscore.js and Handlebars.
