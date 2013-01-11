@@ -10,3 +10,4 @@
 * Follows the Object Literal Pattern with one global namespace, usually 'myApp' or 'chatApp'. In this case, it's 'breakingBad'.
 * Included: jQuery, Underscore.js and Handlebars.
 * A fully commented source to show you why it's doing what it's doing and how to build upon it's foundation.
+* The JavaScript version of the HTML5 Boilerplate
