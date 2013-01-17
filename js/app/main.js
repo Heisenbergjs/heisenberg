@@ -1,3 +1,19 @@
+require.config({
+  paths: {
+    'underscore': 'js/vendors/underscore/underscore'
+    'jquery': 'js/vendors/jquery/jquery.min'
+  },
+  shim: {
+    'underscore': {
+      exports: '_'
+    }
+  }
+});
+
+require(["jquery"], function($) {
+  $(function() {
+  });
+});
 window.breakingBad = {
 
 	// this is our top level module, the module that sets up the namespace and secondary level modules
@@ -6,7 +22,6 @@ window.breakingBad = {
 
 	},
 	Utilities: {
-		
 	},
 	init: function(){
 		console.log('Ready, yo!');
