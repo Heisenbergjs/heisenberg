@@ -59,21 +59,8 @@
 	{{/this}}
 	</script>
 
-	<!-- vendor libraries -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery.js"><\/script>')</script>
-	<script type="text/javascript" src="js/vendors/underscore/underscore.js"></script>
-	<script type="text/javascript" src="js/vendors/handlebars/handlebars.js"></script>
-
-	<!-- main file - sets up namespace and bootstraps app -->
-	<script type="text/javascript" src="js/app/main.js"></script>
-
-	<!-- utility scripts -->
-	<script type="text/javascript" src="js/app/utilities/helpers.js"></script>
-
-	<!-- modules -->
-	<script type="text/javascript" src="js/app/modules/jesse.js"></script>
-	<script type="text/javascript" src="js/app/modules/walter.js"></script>
+	<!-- load in RequireJS and get the party started -->
+  <script type="text/javascript" src="js/vendors/requirejs/require.js" data-main="js/app/main.js"></script>
 
 	<!-- analytics - replace 'XXXX' with your analytics ID-->
 
