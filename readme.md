@@ -1,8 +1,10 @@
 # Heisenberg.js
 
+http://benhowdle89.github.com/heisenberg
+
 ## A project base for building modern JavaScript applications
 
-Maintained by @benhowdle89 and @Jack_Franklin.
+Maintained by [Ben Howdle](http://github.com/benhowdle89) and [Jack Franklin](http://github.com/jackfranklin).
 
 ### Features
 
