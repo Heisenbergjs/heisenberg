@@ -23,7 +23,10 @@ Maintained by @benhowdle89 and @Jack_Franklin.
 * Job done!
 
 ### Changelog
-_V0.1.0_
+
+All releases our [tagged and listed here on Github](https://github.com/benhowdle89/heisenberg/tags).
+
+##### V0.1.0
 - Initial release
 
 ### License
