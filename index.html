@@ -15,20 +15,9 @@
 	</div>
 
 	<div class="container">
-
-		
-
 		<p id="large">A project base for building modern JavaScript applications</p>
-
-		<div id="walter" class="character">
-
-		</div>
-
-		<div id="jesse" class="character">
-
-		</div>
-
-		<p class="quote"><a href="http://www.amctv.com/shows/breaking-bad/cast/mike" target="_BLANK">Mike Ehrmantraut</a>: <em>"No more half measures"</em>.</p>
+    <div id="introduction">
+    </div>
 
 		<div class="features">
 			<h3>Features</h3>
@@ -46,7 +35,6 @@
 		<hr />
 
 		<p class="medium">It's actually powering this page.</p>
-		<p class="medium">The above profiles are templates controlled and rendered by the included modules.<p>
 
 		<a class="button" href="https://github.com/benhowdle89/heisenberg">GitHub</a>
 
@@ -54,37 +42,20 @@
 
 	</div>
 
-	
 
-	<script id="character-template" type="text/x-handlebars-template">
-	{{#this}}
-	<img class="avatar" src="{{avatar}}" />
-	<h2>{{character}}</h2>
-	{{/this}}
+	<script id="introduction-template" type="text/x-handlebars-template">
+    This snippet is being powered by Handlebars. Currently the date is: {{day}}/{{month}}/{{year}}
 	</script>
 
-	<!-- vendor libraries -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery.js"><\/script>')</script>
-	<script type="text/javascript" src="js/vendors/underscore/underscore.js"></script>
-	<script type="text/javascript" src="js/vendors/handlebars/handlebars.js"></script>
+	<!-- load in RequireJS and get the party started -->
+  <script type="text/javascript" src="js/vendors/requirejs/require.js" data-main="js/main.js"></script>
 
-	<!-- main file - sets up namespace and bootstraps app -->
-	<script type="text/javascript" src="js/app/main.js"></script>
-
-	<!-- utility scripts -->
-	<script type="text/javascript" src="js/app/utilities/helpers.js"></script>
-
-	<!-- modules -->
-	<script type="text/javascript" src="js/app/modules/jesse.js"></script>
-	<script type="text/javascript" src="js/app/modules/walter.js"></script>
-
-	<!-- analytics - REMOVE -->
+	<!-- analytics - replace 'XXXX' with your analytics ID-->
 
 	<script type="text/javascript">
 
 		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-37224725-1']);
+		_gaq.push(['_setAccount', 'XXXX']);
 		_gaq.push(['_trackPageview']);
 
 		(function() {
