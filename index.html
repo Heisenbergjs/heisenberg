@@ -16,16 +16,8 @@
 
 	<div class="container">
 		<p id="large">A project base for building modern JavaScript applications</p>
-
-		<div id="walter" class="character">
-
-		</div>
-
-		<div id="jesse" class="character">
-
-		</div>
-
-		<p class="quote"><a href="http://www.amctv.com/shows/breaking-bad/cast/mike" target="_BLANK">Mike Ehrmantraut</a>: <em>"No more half measures"</em>.</p>
+    <div id="introduction">
+    </div>
 
 		<div class="features">
 			<h3>Features</h3>
@@ -43,7 +35,6 @@
 		<hr />
 
 		<p class="medium">It's actually powering this page.</p>
-		<p class="medium">The above profiles are templates controlled and rendered by the included modules.<p>
 
 		<a class="button" href="https://github.com/benhowdle89/heisenberg">GitHub</a>
 
@@ -52,15 +43,12 @@
 	</div>
 
 
-	<script id="character-template" type="text/x-handlebars-template">
-	{{#this}}
-	<img class="avatar" src="{{avatar}}" />
-	<h2>{{character}}</h2>
-	{{/this}}
+	<script id="introduction-template" type="text/x-handlebars-template">
+    This snippet is being powered by Handlebars. Currently the date is: {{date}}
 	</script>
 
 	<!-- load in RequireJS and get the party started -->
-  <script type="text/javascript" src="js/vendors/requirejs/require.js" data-main="js/app/main.js"></script>
+  <script type="text/javascript" src="js/vendors/requirejs/require.js" data-main="js/main.js"></script>
 
 	<!-- analytics - replace 'XXXX' with your analytics ID-->
 
