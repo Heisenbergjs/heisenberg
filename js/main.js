@@ -27,7 +27,13 @@ require(["jquery"], function($) {
 
   require(["handlebars"], function(Handlebars) {
     var temp = Handlebars.compile($("#introduction-template").html());
-    $("#introduction").html(temp({ date: Date.now() }));
+    var date = new Date();
+    var month = date.getMonth() + 1;
+    $("#introduction").html(temp({
+      day: date.getDate(),
+      month: month < 10 ? "0" + month : month,
+      year: date.getFullYear()
+    }));
   });
 
 });
