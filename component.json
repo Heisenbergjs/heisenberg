@@ -1,6 +1,4 @@
 {
-  "name": "Heisenburg",
-  "version": "0.0.1",
   "dependencies": {
     "jquery": "~1.9.0",
     "requirejs": "~2.1.2",
