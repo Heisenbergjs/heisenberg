@@ -1,3 +1,1 @@
-# this is so we don't add all the components installed with Bower to Git
-js/vendors/
 .DS_Store
