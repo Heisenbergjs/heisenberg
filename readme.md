@@ -22,6 +22,10 @@ Maintained by @benhowdle89 and @Jack_Franklin.
 * Run `bower install` to download all the libraries (by default this is jQuery, RequireJS, Handlebars and Underscore)
 * Job done!
 
+### Changelog
+_V0.1.0_
+- Initial release
+
 ### License
 
 The MIT License (MIT)
