@@ -13,10 +13,14 @@ module.exports = function(grunt) {
           fileExclusionRegExp: /^\.|node_modules|Gruntfile|\.md|package.json/
         }
       }
+    },
+    jshint: {
+      all: ["app/**/*.js"]
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-requirejs');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
   grunt.registerTask('build', ['requirejs']);
 
