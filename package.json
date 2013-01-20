@@ -1,0 +1,20 @@
+{
+  "name": "heisenberg",
+  "version": "0.1.0",
+  "description": "A project base for building modern JavaScript applications",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhowdle89/heisenberg.git"
+  },
+  "author": "Ben Howdle",
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "gitHead": "58dcdd9c341741d3c7bfe6d2c8daf201e4f594e0",
+  "dependencies": {
+    "requirejs": "~2.1.2"
+  }
+}
