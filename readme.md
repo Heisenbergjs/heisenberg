@@ -4,8 +4,6 @@ http://benhowdle89.github.com/heisenberg
 
 ## A project base for building modern JavaScript applications
 
-Maintained by [Ben Howdle](http://github.com/benhowdle89) and [Jack Franklin](http://github.com/jackfranklin).
-
 ### Features
 
 * Not a framework, but a base project to help you structure your JavaScript code and files.
@@ -43,6 +41,8 @@ All releases our [tagged and listed here on Github](https://github.com/benhowdle
 - Initial release
 
 ### Contributors
+- [Ben Howdle](http://github.com/benhowdle)
+- [Jack Franklin](http://github.com/jackfranklin)
 - [Oliver J Ash](https://github.com/OliverJAsh)
 
 ### License
