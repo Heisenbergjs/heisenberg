@@ -4,8 +4,8 @@ node_modules/
 # this is where requirejs will output its optimized version to
 dist/
 
-# this is so we don't add all the components installed with Bower to Git
-# if you're not using Bower or want to track assets, delete this
+# this is so we don't add all the components installed with pulldown to Git
+# if you're not using pulldown or want to track assets, delete this
 lib/
 
 # Mac OS X sucks
