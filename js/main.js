@@ -1,9 +1,9 @@
 require.config({
   paths: {
-    'underscore': 'vendors/underscore/underscore',
-    'jquery': 'vendors/jquery/jquery.min',
-    'handlebars': 'vendors/handlebars/handlebars',
-    'text': 'vendors/requirejs-text/text'
+    'underscore': '../lib/underscore/underscore',
+    'jquery': '../lib/jquery/jquery.min',
+    'handlebars': '../lib/handlebars/handlebars',
+    'text': '../lib/requirejs-text/text'
   },
   shim: {
     'underscore': {

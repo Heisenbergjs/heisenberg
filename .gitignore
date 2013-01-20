@@ -5,7 +5,8 @@ node_modules/
 dist/
 
 # this is so we don't add all the components installed with Bower to Git
-js/vendors/
+# if you're not using Bower or want to track assets, delete this
+lib/
 
 # Mac OS X sucks
 .DS_Store
