@@ -1,0 +1,28 @@
+{
+  "name": "heisenberg",
+  "version": "0.1.0",
+  "description": "A project base for building modern JavaScript applications",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhowdle89/heisenberg.git"
+  },
+  contributors: [{
+    "name" : "Ben Howdle",
+    "email" : "benhowdle89@gmail.com",
+    "url" : "http://benhowdle.im/"
+  }, {
+    "name" : "Jack Franklin",
+    "email" : "jack@jackfranklin.net",
+    "url" : "http://jackfranklin.co.uk/"
+  }, {
+    "name" : "Oliver Joseph Ash",
+    "email" : "oliverjash@icloud.com",
+    "url" : "http://oliverjash.me/"
+  }]
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "dependencies": {
+    "requirejs": "~2.1.2"
+  }
+}
