@@ -28,6 +28,11 @@ Maintained by [Ben Howdle](http://github.com/benhowdle89) and [Jack Franklin](ht
 
 All releases our [tagged and listed here on Github](https://github.com/benhowdle89/heisenberg/tags).
 
+##### V0.1.1
+- Added a `package.json` file for Node modules (Thanks @OliverJAsh)
+- Added a RequireJS build file. (Thanks @OliverJash)
+- Added doctype to HTML file.
+
 ##### V0.1.0
 - Initial release
 

@@ -1,6 +1,6 @@
 {
   "name": "heisenberg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A project base for building modern JavaScript applications",
   "main": "index.html",
   "repository": {
