@@ -36,6 +36,9 @@ All releases our [tagged and listed here on Github](https://github.com/benhowdle
 ##### V0.1.0
 - Initial release
 
+### Contributors
+- [Oliver J Ash](https://github.com/OliverJAsh)
+
 ### License
 
 The MIT License (MIT)
