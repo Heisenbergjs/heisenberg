@@ -1,6 +1,6 @@
 {
   "name": "heisenberg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A project base for building modern JavaScript applications",
   "main": "index.html",
   "repository": {
@@ -27,12 +27,10 @@
   "license": "MIT",
   "readmeFilename": "readme.md",
   "dependencies": {
-    "requirejs": "~2.1.2"
   },
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-jshint": "~0.1.0",
-    "grunt-shell": "~0.1.3",
     "grunt-contrib-requirejs": "~0.3.4"
   }
 }
