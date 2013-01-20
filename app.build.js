@@ -3,5 +3,6 @@
   baseUrl: "js",
   dir: "build",
   mainConfigFile: "js/main.js",
-  name: "main"
+  name: "main",
+  findNestedDependencies: true
 })
