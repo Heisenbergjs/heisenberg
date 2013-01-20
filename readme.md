@@ -28,6 +28,9 @@ Maintained by [Ben Howdle](http://github.com/benhowdle89) and [Jack Franklin](ht
 
 All releases our [tagged and listed here on Github](https://github.com/benhowdle89/heisenberg/tags).
 
+##### V0.1.2
+- added Grunt.js and requirejs optimiser task
+
 ##### V0.1.1
 - Added a `package.json` file for Node modules (Thanks @OliverJAsh)
 - Added a RequireJS build file. (Thanks @OliverJash)
