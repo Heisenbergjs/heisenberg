@@ -4,6 +4,8 @@ http://benhowdle89.github.com/heisenberg
 
 ## A project base for building modern JavaScript applications
 
+Please note that current Heisenberg is under _very_ active development. Large changes may happen often until we hit V1.0.0.
+
 ### Features
 
 * Not a framework, but a base project to help you structure your JavaScript code and files.
