@@ -2,7 +2,8 @@ require.config({
   paths: {
     'underscore': 'vendors/underscore/underscore',
     'jquery': 'vendors/jquery/jquery.min',
-    'handlebars': 'vendors/handlebars/handlebars'
+    'handlebars': 'vendors/handlebars/handlebars',
+    'text': 'vendors/requirejs-text/text'
   },
   shim: {
     'underscore': {
@@ -25,8 +26,8 @@ require(["jquery"], function($) {
     console.log(add.twoNumbers(2, 2));
   });
 
-  require(["handlebars"], function(Handlebars) {
-    var temp = Handlebars.compile($("#introduction-template").html());
+  require(["handlebars", "text!templates/date.hbs"], function(Handlebars, template) {
+    var temp = Handlebars.compile(template);
     var date = new Date();
     var month = date.getMonth() + 1;
     $("#introduction").html(temp({
