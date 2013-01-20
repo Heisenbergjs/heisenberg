@@ -4,6 +4,7 @@
     "https://raw.github.com/jrburke/almond/master/almond.js",
     "http://requirejs.org/docs/release/2.1.2/minified/require.js",
     "https://raw.github.com/wycats/handlebars.js/master/dist/handlebars.js",
-    "http://code.jquery.com/jquery.min.js"
+    "http://code.jquery.com/jquery.min.js",
+    "https://raw.github.com/requirejs/text/master/text.js"
   ]
 }
