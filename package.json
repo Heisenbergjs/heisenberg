@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/benhowdle89/heisenberg.git"
   },
-  contributors: [{
+  "contributors": [{
     "name" : "Ben Howdle",
     "email" : "benhowdle89@gmail.com",
     "url" : "http://benhowdle.im/"
@@ -19,7 +19,7 @@
     "name" : "Oliver Joseph Ash",
     "email" : "oliverjash@icloud.com",
     "url" : "http://oliverjash.me/"
-  }]
+  }],
   "license": "MIT",
   "readmeFilename": "readme.md",
   "dependencies": {
