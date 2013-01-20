@@ -1,5 +1,11 @@
+# dont add npm modules to Git
+node_modules/
+
+# this is where requirejs will output its optimized version to
+dist/
+
 # this is so we don't add all the components installed with Bower to Git
-node_modules
-build
 js/vendors/
+
+# Mac OS X sucks
 .DS_Store

@@ -7,22 +7,32 @@
     "type": "git",
     "url": "https://github.com/benhowdle89/heisenberg.git"
   },
-  "contributors": [{
-    "name" : "Ben Howdle",
-    "email" : "benhowdle89@gmail.com",
-    "url" : "http://benhowdle.im/"
-  }, {
-    "name" : "Jack Franklin",
-    "email" : "jack@jackfranklin.net",
-    "url" : "http://jackfranklin.co.uk/"
-  }, {
-    "name" : "Oliver Joseph Ash",
-    "email" : "oliverjash@icloud.com",
-    "url" : "http://oliverjash.me/"
-  }],
+  "contributors": [
+    {
+      "name": "Ben Howdle",
+      "email": "benhowdle89@gmail.com",
+      "url": "http://benhowdle.im/"
+    },
+    {
+      "name": "Jack Franklin",
+      "email": "jack@jackfranklin.net",
+      "url": "http://jackfranklin.co.uk/"
+    },
+    {
+      "name": "Oliver Joseph Ash",
+      "email": "oliverjash@icloud.com",
+      "url": "http://oliverjash.me/"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "readme.md",
   "dependencies": {
     "requirejs": "~2.1.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-shell": "~0.1.3",
+    "grunt-contrib-requirejs": "~0.3.4"
   }
 }
