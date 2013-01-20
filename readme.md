@@ -28,6 +28,10 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 All releases our [tagged and listed here on Github](https://github.com/benhowdle89/heisenberg/tags).
 
+##### V0.3.0
+- use [pulldown](http://github.com/jackfranklin/pulldown) for dependencies
+- add JSHint grunt task
+
 ##### V0.2.0
 - updated folder structure - thanks to @phuu and others for feedback on this
 
