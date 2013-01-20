@@ -5,11 +5,12 @@ module.exports = function(grunt) {
       compile: {
         options: {
           appDir: "./",
-          baseUrl: "js",
+          baseUrl: "app",
           dir: "dist",
-          mainConfigFile: "js/main.js",
-          name: "main",
-          findNestedDependencies: true
+          mainConfigFile: "app/main.js",
+          name: 'main',
+          findNestedDependencies: true,
+          fileExclusionRegExp: /^\.|node_modules|Gruntfile|\.md|package.json/
         }
       }
     }

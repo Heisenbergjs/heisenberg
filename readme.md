@@ -20,8 +20,8 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 * Download the repository, either as a zip file from Github or simply by cloning it: `git clone git@github.com:benhowdle89/heisenberg.git`
 * You'll need NodeJS and npm installed. npm comes with Node. You can install Node through Homebrew (`brew install node`) or download installers from the [Node website](http://nodejs.org/).
-* Then install Bower: `npm install -g bower`
-* Run `bower install` to download all the libraries (by default this is jQuery, RequireJS, Handlebars and Underscore)
+* Then install pulldown: `npm install -g pulldown`
+* Run `pulldown` to download all the libraries (by default this is jQuery, RequireJS and Handlebar)
 * Job done!
 
 ### Changelog
