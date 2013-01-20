@@ -22,7 +22,6 @@
   }]
   "license": "MIT",
   "readmeFilename": "readme.md",
-  "gitHead": "58dcdd9c341741d3c7bfe6d2c8daf201e4f594e0",
   "dependencies": {
     "requirejs": "~2.1.2"
   }
