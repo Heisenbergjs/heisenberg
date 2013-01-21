@@ -1,7 +1,5 @@
 # Heisenberg.js
 
-http://benhowdle89.github.com/heisenberg
-
 ## A project base for building modern JavaScript applications
 
 Please note that current Heisenberg is under _very_ active development. Large changes may happen often until we hit V1.0.0.
@@ -17,10 +15,10 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 ### Getting Started
 
-* Download the repository, either as a zip file from Github or simply by cloning it: `git clone git@github.com:benhowdle89/heisenberg.git`
-* You'll need NodeJS and npm installed. npm comes with Node. You can install Node through Homebrew (`brew install node`) or download installers from the [Node website](http://nodejs.org/).
-* Then install pulldown: `npm install -g pulldown`
-* Run `pulldown` to download all the libraries (by default this is jQuery, RequireJS and Handlebar)
+* Use our [npm module](https://github.com/Heisenbergjs/heisenberg-npm) to get started.
+* `npm install -g heisenberg`
+* `mkdir newproject && cd newproject`
+* `heisenberg`
 * Job done!
 
 ### Changelog
@@ -46,7 +44,7 @@ All releases our [tagged and listed here on Github](https://github.com/benhowdle
 - Initial release
 
 ### Contributors
-- [Ben Howdle](http://github.com/benhowdle)
+- [Ben Howdle](http://github.com/benhowdle89)
 - [Jack Franklin](http://github.com/jackfranklin)
 - [Oliver J Ash](https://github.com/OliverJAsh)
 
