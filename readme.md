@@ -23,7 +23,7 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 ### Changelog
 
-All releases our [tagged and listed here on Github](https://github.com/benhowdle89/heisenberg/tags).
+All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
 
 ##### V0.4.0
 - use [pulldown](http://github.com/jackfranklin/pulldown) for dependencies
