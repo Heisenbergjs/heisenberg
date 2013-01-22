@@ -46,6 +46,7 @@ define([
     // in the browser via a template. This render function could be triggered by another module through 'app.Events'
 
     render: function (event, params) {
+
       var date = new Date()
         , month = date.getMonth() + 1;
 
@@ -56,7 +57,9 @@ define([
         month: app.Utilities.Helpers.toCanonicalMonth(month),
         year: date.getFullYear()
       }));
+
     }
+
   };
 
 });
