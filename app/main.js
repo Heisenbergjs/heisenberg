@@ -1,40 +1,51 @@
+
+// configure RequireJS
+
 require.config({
-  paths: {
-    'jquery': '../lib/jquery.min',
-    'handlebars': '../lib/handlebars',
-    'text': '../lib/text'
-  },
-  shim: {
-    'underscore': {
-      exports: '_'
-    },
-    'handlebars': {
-      exports: 'Handlebars'
+    paths: {
+        'jquery': '../lib/jquery.min'
+      , 'handlebars': '../lib/handlebars'
+      , 'underscore': '../lib/underscore-min'
+      , 'text': '../lib/text'
+      , 'app': 'app'
     }
-  }
+  , shim: {
+      'underscore': {
+        exports: '_'
+      }
+    , 'handlebars': {
+        exports: 'Handlebars'
+      }
+    }
 });
 
-/*
- * if everything in your app will depend on something
- * put everything else within the require
- * requires can be nested
- **/
-require(["jquery"], function($) {
+// start our application by requiring some dependencies
 
-  require(["modules/add"], function(add) {
-    console.log(add.twoNumbers(2, 2));
-  });
+require([
+    'jquery'
+  , 'underscore'
+  , 'handlebars'
+  , 'app'
+], function ($, _, Handlebars, app) {
 
-  require(["handlebars", "text!templates/date.hbs"], function(Handlebars, template) {
-    var temp = Handlebars.compile(template);
-    var date = new Date();
-    var month = date.getMonth() + 1;
-    $("#introduction").html(temp({
-      day: date.getDate(),
-      month: month < 10 ? "0" + month : month,
-      year: date.getFullYear()
-    }));
+  // as soon as these dependencies have all loaded, RequireJS will run this function
+
+  require([
+
+    // require all the modules needed here
+
+    'utilities/helpers',
+    'modules/introduction'
+
+  ], function () {
+
+    // once every module has loaded, we initialise the application as soon as jQuery reports the document as ready
+
+    $(document).ready(function () {
+
+      app.init();
+
+    });
   });
 
 });
-
