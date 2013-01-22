@@ -1,4 +1,3 @@
-
 // configure RequireJS
 
 require.config({
@@ -41,11 +40,7 @@ require([
 
     // once every module has loaded, we initialise the application as soon as jQuery reports the document as ready
 
-    $(document).ready(function () {
-
-      app.init();
-
-    });
+    $(document).ready(app.init);
   });
 
 });
