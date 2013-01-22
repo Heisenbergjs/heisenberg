@@ -19,11 +19,15 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 * `npm install -g heisenberg`
 * `mkdir newproject && cd newproject`
 * `heisenberg`
+* `grunt server` and visit localhost:3000 to preview
 * Job done!
 
 ### Changelog
 
 All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
+
+##### V0.6.0
+- added `grunt server` task which is a good way to quickly run a local preview server
 
 ##### V0.5.0
 - add mediator pattern
