@@ -13,7 +13,7 @@ We use [Idiomatic.js](https://github.com/rwldrn/idiomatic.js/) as our style-guid
 When working with RequireJS, dependencies should be defined on a single line, like so:
 
 ```js
-define( ["app", "foo"], function( app, foo ) {
+define([ "app", "foo" ], function( app, foo ) {
 });
 ```
 
