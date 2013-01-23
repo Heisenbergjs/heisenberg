@@ -52,6 +52,7 @@ All releases our [tagged and listed here on Github](https://github.com/Heisenber
 
 ### Contributors
 - [Ben Howdle](http://github.com/benhowdle89)
+- [Boye Oomens](http://github.com/boye)
 - [Jack Franklin](http://github.com/jackfranklin)
 - [Oliver J Ash](https://github.com/OliverJAsh)
 
