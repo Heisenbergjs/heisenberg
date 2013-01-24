@@ -26,6 +26,11 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
 
+##### V0.7.0
+- moved back to using Bower for our package management
+- use Bower grunt plugin to better control which files we pull down (avoid the issue of Bower bringing down the entire repo of a package).
+- move components folder into `/app` so RequireJS' optimiser can do it exactly as we want
+
 ##### V0.6.0
 - added `grunt server` task which is a good way to quickly run a local preview server
 
