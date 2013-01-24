@@ -14,13 +14,7 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 * The JavaScript version of the HTML5 Boilerplate
 
 ### Getting Started
-
-* Use our [npm module](https://github.com/Heisenbergjs/heisenberg-npm) to get started.
-* `npm install -g heisenberg`
-* `mkdir newproject && cd newproject`
-* `heisenberg`
-* `grunt server` and visit localhost:3000 to preview
-* Job done!
+The best place to start is on the [wiki](https://github.com/Heisenbergjs/heisenberg/wiki).
 
 ### Changelog
 
