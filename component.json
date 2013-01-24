@@ -5,5 +5,16 @@
     "underscore": "~1.4.3",
     "handlebars": "~1.0.0-rc.1",
     "requirejs-text": "~2.0.4"
+  },
+  "exportsOverride": {
+    "requirejs": {
+      "js": "require.js"
+    },
+    "requirejs-text": {
+      "js": "text.js"
+    },
+    "underscore": {
+      "js": "underscore.js"
+    }
   }
 }
