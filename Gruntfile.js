@@ -14,6 +14,14 @@ module.exports = function(grunt) {
         }
       }
     },
+    bower: {
+      install: {
+         //just run 'grunt bower:install' and you'll see files from your Bower packages in lib directory
+         options: {
+           targetDir: 'app/components'
+         }
+      }
+    },
     jshint: {
       all: ["app/**/*.js"]
     },
@@ -28,6 +36,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-requirejs');
+  grunt.loadNpmTasks('grunt-bower-task');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-connect');
 

@@ -33,14 +33,35 @@
 			<a class="button" href="https://github.com/benhowdle89/heisenberg">GitHub</a>
 			<a class="button" href="https://twitter.com/intent/tweet?text=Heisenberg.js - A project base for building modern JavaScript applications&url=http://benhowdle.im/heisenberg&via=benhowdle">Tweet</a>
 		</div>
-		<!-- load in RequireJS and get the party started -->
-	  	<script src="lib/require.js" data-main="app/main.js"></script>
-		<!-- analytics - replace 'XXXX' with your analytics ID-->
-		<script>		
-			var _gaq=[['_setAccount','XXXX'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)}(document,'script'));
-		</script>
-	</body>
+
+		<hr />
+
+		<p class="medium">It's actually powering this page.</p>
+
+		<a class="button" href="https://github.com/benhowdle89/heisenberg">GitHub</a>
+
+		<a class="button" href="https://twitter.com/intent/tweet?text=Heisenberg.js - A project base for building modern JavaScript applications&url=http://benhowdle.im/heisenberg&via=benhowdle">Tweet</a>
+
+	</div>
+
+	<!-- load in RequireJS and get the party started -->
+  <script type="text/javascript" src="app/components/requirejs/require.js" data-main="app/main.js"></script>
+
+	<!-- analytics - replace 'XXXX' with your analytics ID-->
+
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'XXXX']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+
+</body>
 </html>

@@ -1,6 +1,6 @@
 {
   "name": "heisenberg",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A project base for building modern JavaScript applications",
   "main": "index.html",
   "repository": {
@@ -31,6 +31,7 @@
     "grunt": "~0.4.0",
     "grunt-contrib-jshint": "~0.1.0",
     "grunt-contrib-requirejs": "~0.3.4",
-    "grunt-contrib-connect": "~0.1.0"
+    "grunt-contrib-connect": "~0.1.0",
+    "grunt-bower-task": "~0.1.0"
   }
 }

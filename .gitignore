@@ -6,7 +6,7 @@ dist/
 
 # this is so we don't add all the components installed with pulldown to Git
 # if you're not using pulldown or want to track assets, delete this
-lib/
+components/
 
 # Mac OS X sucks
 .DS_Store
