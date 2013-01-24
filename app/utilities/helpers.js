@@ -1,14 +1,12 @@
 
 // define helpers, but require app first
 
-define([
-  "app"
-], function (app) {
+define([ "app" ], function( app ) {
 
   app.Utilities.Helpers = {
 
-    toCanonicalMonth: function (month) {
-      return month < 10 ? "0" + month : month
+    toCanonicalMonth: function( month ) {
+      return month < 10 ? "0" + month : month;
     }
 
   };
