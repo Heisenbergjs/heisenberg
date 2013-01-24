@@ -23,7 +23,10 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      all: ["app/**/*.js"]
+      all: ['Gruntfile.js', 'app/modules/**/*.js', 'app/*.js', 'app/utilities/**/*.js'],
+      options: {
+        jshintrc: './.jshintrc'
+      }
     },
     connect: {
       preview: {

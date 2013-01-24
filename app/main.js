@@ -20,12 +20,7 @@ require.config({
 
 // start our application by requiring some dependencies
 
-require([
-    'jquery'
-  , 'underscore'
-  , 'handlebars'
-  , 'app'
-], function ($, _, Handlebars, app) {
+require([ 'jquery', 'underscore', 'handlebars', 'app' ], function( $, _, Handlebars, app ) {
 
   // as soon as these dependencies have all loaded, RequireJS will run this function
 
@@ -36,11 +31,11 @@ require([
     'utilities/helpers',
     'modules/introduction'
 
-  ], function () {
+  ], function() {
 
     // once every module has loaded, we initialise the application as soon as jQuery reports the document as ready
 
-    $(document).ready(app.init);
+    $( app.init );
   });
 
 });
