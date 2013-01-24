@@ -1,21 +1,21 @@
 // configure RequireJS
 
 require.config({
-    paths: {
-        'jquery': '../lib/jquery.min'
-      , 'handlebars': '../lib/handlebars'
-      , 'underscore': '../lib/underscore-min'
-      , 'text': '../lib/text'
-      , 'app': 'app'
+  paths: {
+    'jquery': '../../components/jquery/jquery',
+    'handlebars': '../../components/handlebars/handlebars',
+    'underscore': '../../components/underscore/underscore',
+    'text': '../../components/requirejs-text/text',
+    'app': 'app'
+  },
+  shim: {
+    'underscore': {
+      exports: '_'
+    },
+    'handlebars': {
+      exports: 'Handlebars'
     }
-  , shim: {
-      'underscore': {
-        exports: '_'
-      }
-    , 'handlebars': {
-        exports: 'Handlebars'
-      }
-    }
+  }
 });
 
 // start our application by requiring some dependencies
