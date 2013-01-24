@@ -2,10 +2,10 @@
 
 require.config({
   paths: {
-    'jquery': '../../components/jquery/jquery',
-    'handlebars': '../../components/handlebars/handlebars',
-    'underscore': '../../components/underscore/underscore',
-    'text': '../../components/requirejs-text/text',
+    'jquery': 'components/jquery/jquery',
+    'handlebars': 'components/handlebars/handlebars',
+    'underscore': 'components/underscore/underscore',
+    'text': 'components/requirejs-text/text',
     'app': 'app'
   },
   shim: {
