@@ -8,13 +8,13 @@
   },
   "exportsOverride": {
     "requirejs": {
-      "js": "require.js"
+      "": "require.js"
     },
     "requirejs-text": {
-      "js": "text.js"
+      "": "text.js"
     },
     "underscore": {
-      "js": "underscore.js"
+      "": "underscore.js"
     }
   }
 }
