@@ -21,7 +21,7 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
 
-##### V?????
+##### V0.8.0
 - went back to basics, in preparation for creating two versions of Heisenberg, Basic (this), and Pro (to come).
 - removed RequireJS, Package.json, Grunt, Node modules, Bower, and so on
 
