@@ -8,17 +8,26 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 
 * Not a framework, but a base project to help you structure your JavaScript code and files.
 * Templating built in - Handlebars is included but feel free to change engines.
-* Uses RequireJS for managing modules and dependencies.
 * Included: jQuery, Underscore.js and Handlebars.
 * A fully commented source to show you why it's doing what it's doing and how to build upon it's foundation.
 * The JavaScript version of the HTML5 Boilerplate
 
 ### Getting Started
+<<<<<<< HEAD
 The best place to start is on the [wiki](https://github.com/Heisenbergjs/heisenberg/wiki).
+=======
+
+* [Download the ZIP](https://github.com/Heisenbergjs/heisenberg/archive/master.zip)
+* Extract the ZIP, and get started.
+>>>>>>> release/0.8.0
 
 ### Changelog
 
 All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
+
+##### V0.8.0
+- went back to basics, in preparation for creating two versions of Heisenberg, Basic (this), and Pro (to come).
+- removed RequireJS, Package.json, Grunt, Node modules, Bower, and so on
 
 ##### V0.7.0
 - moved back to using Bower for our package management
