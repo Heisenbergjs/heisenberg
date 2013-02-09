@@ -13,13 +13,10 @@ Please note that current Heisenberg is under _very_ active development. Large ch
 * The JavaScript version of the HTML5 Boilerplate
 
 ### Getting Started
-<<<<<<< HEAD
 The best place to start is on the [wiki](https://github.com/Heisenbergjs/heisenberg/wiki).
-=======
 
 * [Download the ZIP](https://github.com/Heisenbergjs/heisenberg/archive/master.zip)
 * Extract the ZIP, and get started.
->>>>>>> release/0.8.0
 
 ### Changelog
 
