@@ -1,5 +1,5 @@
 (function() {
-  var App = {
+  var App = window.App = {
 
     // this is our top level module, the module that sets up the namespace and secondary level modules
 
@@ -27,8 +27,6 @@
     }
   };
 
-  // expose the App globally
-  window.App = App;
 })();
 
 

@@ -60,6 +60,7 @@ All releases our [tagged and listed here on Github](https://github.com/Heisenber
 - [Boye Oomens](http://github.com/boye)
 - [Jack Franklin](http://github.com/jackfranklin)
 - [Oliver J Ash](https://github.com/OliverJAsh)
+- [Dan Harper](https://github.com/danharper)
 
 ### License
 
