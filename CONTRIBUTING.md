@@ -10,31 +10,12 @@ Thanks for showing interest in contributing to Heisenberg! This document lists h
 
 We use [Idiomatic.js](https://github.com/rwldrn/idiomatic.js/) as our style-guide. Please read and make sure your code matches before making a pull request.
 
-When working with RequireJS, dependencies should be defined on a single line, like so:
-
-```js
-define([ "app", "foo" ], function( app, foo ) {
-});
-```
-
-If there's lots of dependencies, push the dependencies and the function onto their own line.
-
-```js
-define(
-  [ "app", "foo" ],
-  function( app, foo ) {
-  }
-);
-```
-
 ## Git Flow
 
 Our Git workflow revolves around [Git Flow](https://github.com/nvie/gitflow). To work on Heisenberg you'll need the following installed:
 
 - Git
 - Git Flow
-- Node.js (V0.8+) and npm (V1.1+)
-- [grunt-cli](https://github.com/gruntjs/grunt-cli)
 
 To contribute a new feature, here's what you should do:
 
@@ -44,3 +25,4 @@ To contribute a new feature, here's what you should do:
 - when you're done, finish the feature: `git flow feature finish X`.
 - push your `develop` branch to your clone: `git push origin develop`
 - open a pull request, asking to merge from your `develop` branch into the `develop` branch on the Heisenberg repository.
+- remember to add yourself to the Contributor list in README.md.
