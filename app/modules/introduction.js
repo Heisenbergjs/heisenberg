@@ -24,8 +24,8 @@ App.Modules.introduction = {
     App.Events.on( 'render', this.render );
   },
 
-  // this is where you can cache your templates and your DOM elements, ie. this.$button = $(this.el).find('#myButton'), so
-  // jQuery knows to look inside the master 'el' (#jesse) and not traverse the complete DOM tree
+  // this is where you can cache your templates and your DOM elements, ie. this.$button = $(this.el).find('.myButton'), so
+  // jQuery knows to look inside the master 'el' (#introduction) and not traverse the complete DOM tree
 
   cacheEls: function () {
     this.template = Handlebars.compile("This snippet is being powered by Handlebars. Currently the date is: {{day}}/{{month}}/{{year}}");
