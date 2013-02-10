@@ -43,16 +43,25 @@
 		<a class="button" href="https://twitter.com/intent/tweet?text=Heisenberg.js - A project base for building modern JavaScript applications&url=http://benhowdle.im/heisenberg&via=benhowdle">Tweet</a>
 
 	</div>
+	
 
-  <script src="app/vendor/jquery.min.js"></script>
-  <script src="app/vendor/handlebars.js"></script>
-  <script src="app/vendor/underscore.min.js"></script>
-  <script src="app/app.js"></script>
-  <script src="app/helper.js"></script>
-  <script src="app/modules/introduction.js"></script>
-  <script src="app/main.js"></script>
+	<!-- include vendor libraries first -->
+	<script src="app/vendor/jquery.min.js"></script>
+	<script src="app/vendor/handlebars.js"></script>
+	<script src="app/vendor/underscore.min.js"></script>
+
+	<!-- application libraries -->
+	<script src="app/app.js"></script>
+	<script src="app/helper.js"></script>
+
+	<!-- load your modules here -->
+	<script src="app/modules/introduction.js"></script>
+
+	<!-- kick it all off -->
+	<script src="app/main.js"></script>
+
+
 	<!-- analytics - replace 'XXXX' with your analytics ID-->
-
 	<script type="text/javascript">
 
 		var _gaq = _gaq || [];
