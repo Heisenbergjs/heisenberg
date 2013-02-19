@@ -21,7 +21,7 @@ App.Modules.introduction = {
   // bindEvents is where you set up your event listeners and even DOM events, ie. this.$button.click(this.buttonClicked)
 
   bindEvents: function () {
-    App.Events.on( 'render', this.render );
+    App.Events.subscribe( 'render', this.render );
   },
 
   // this is where you can cache your templates and your DOM elements, ie. this.$button = $(this.el).find('.myButton'), so
