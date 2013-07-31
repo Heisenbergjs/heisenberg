@@ -22,6 +22,9 @@ The best place to start is on the [wiki](https://github.com/Heisenbergjs/heisenb
 
 All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
 
+##### V0.9.1
+- remove cruft from gitignore
+
 ##### V0.9.0
 - tidied up the code
 - swapped `App.Utilities.Helpers` out for just `App.Helpers`
