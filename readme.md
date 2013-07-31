@@ -22,6 +22,10 @@ The best place to start is on the [wiki](https://github.com/Heisenbergjs/heisenb
 
 All releases our [tagged and listed here on Github](https://github.com/Heisenbergjs/heisenberg/tags).
 
+##### V0.9.0
+- tidied up the code
+- swapped `App.Utilities.Helpers` out for just `App.Helpers`
+
 ##### V0.8.0
 - went back to basics, in preparation for creating two versions of Heisenberg, Basic (this), and Pro (to come).
 - removed RequireJS, Package.json, Grunt, Node modules, Bower, and so on
