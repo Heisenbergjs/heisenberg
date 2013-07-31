@@ -2,20 +2,9 @@
 
 Thanks for showing interest in contributing to Heisenberg! This document lists how we do things, the JS style guide to follow. If you have any questions, feel free to:
 
-- Ping us on Twitter (@Jack_Franklin, @OliverJAsh, @benhowdle)
+- Ping us on Twitter (@Jack_Franklin, @benhowdle)
 - Grab us on IRC (Freenode #heisenbergjs)
 - Open up a Github issue
-
-## Style Guide
-
-We use [Idiomatic.js](https://github.com/rwldrn/idiomatic.js/) as our style-guide. Please read and make sure your code matches before making a pull request.
-
-## Git Flow
-
-Our Git workflow revolves around [Git Flow](https://github.com/nvie/gitflow). To work on Heisenberg you'll need the following installed:
-
-- Git
-- Git Flow
 
 To contribute a new feature, here's what you should do:
 
