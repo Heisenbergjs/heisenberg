@@ -12,7 +12,7 @@ App.Modules.introduction = {
     // this underscore.js function allows us to use the keyword 'this' inside the 'render' function and for 'this' to have
     // the context of our 'introduction' module and not whatever called the 'render' function
 
-    _.bindAll( this, 'render' );
+    _.bindAll(this, 'render');
     this.cacheEls();
     this.bindEvents();
 
@@ -21,7 +21,7 @@ App.Modules.introduction = {
   // bindEvents is where you set up your event listeners and even DOM events, ie. this.$button.click(this.buttonClicked)
 
   bindEvents: function () {
-    App.Events.on( 'render', this.render );
+    App.Events.on('render', this.render);
   },
 
   // this is where you can cache your templates and your DOM elements, ie. this.$button = $(this.el).find('#myButton'), so
@@ -43,7 +43,7 @@ App.Modules.introduction = {
 
     $(this.el).html(this.template({
       day: date.getDate(),
-      month: App.Utilities.Helpers.toCanonicalMonth( month ),
+      month: App.Helpers.toCanonicalMonth(month),
       year: date.getFullYear()
     }));
 

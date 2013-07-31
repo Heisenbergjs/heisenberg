@@ -5,7 +5,7 @@
 
     Modules: {},
 
-    Utilities: {},
+    Helpers: {},
 
     Events: $({}),
 
@@ -14,7 +14,7 @@
       // here we are looping round all of the modules in our app.Modules object. We could have an exclude array for modules
       // that we don't want to be immediately initialised. We could initialise them later on in our application lifecycle
 
-      for( var x in App.Modules ) {
+      for(var x in App.Modules) {
         App.Modules[x].init();
       }
 
@@ -23,7 +23,7 @@
       // takes data as it's second parameter which is accessible in the 'params' object in the receiving function, i.e. look at the
       // 'render' function within the 'jesse' module
 
-      App.Events.trigger( 'render' );
+      App.Events.trigger('render');
     }
   };
 
